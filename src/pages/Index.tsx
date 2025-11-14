@@ -103,7 +103,7 @@ const Index = () => {
             <div className="hidden md:block">
               <Button 
                 onClick={openJivoChat}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-4 md:px-6 py-2 rounded-lg font-medium whitespace-nowrap"
               >
                 <MessageCircle className="mr-2" size={16} />
                 Customer Support
@@ -162,7 +162,7 @@ const Index = () => {
                 <Button 
                   size="lg" 
                   onClick={openJivoChat}
-                  className="bg-blue-300 hover:bg-blue-200 text-blue-800 px-8 py-4 text-lg font-semibold rounded-lg"
+                  className="bg-blue-300 hover:bg-blue-200 text-blue-800 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-lg w-full sm:w-auto"
                 >
                   <MessageCircle className="mr-2" size={20} />
                   Chat with Support
@@ -171,7 +171,7 @@ const Index = () => {
                   size="lg" 
                   variant="outline" 
                   onClick={openJivoChat}
-                  className="border-blue-300 text-blue-200 hover:bg-blue-600/80 px-8 py-4 text-lg font-semibold rounded-lg"
+                  className="border-blue-300 text-blue-200 hover:bg-blue-600/80 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-lg w-full sm:w-auto"
                 >
                   <Phone className="mr-2" size={20} />
                   Contact Support
@@ -322,7 +322,7 @@ const Index = () => {
           <Button 
             size="lg" 
             onClick={openJivoChat}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-lg"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-lg w-full sm:w-auto"
           >
             <MessageCircle className="mr-2" size={20} />
             Contact Support Now
